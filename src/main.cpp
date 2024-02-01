@@ -1,4 +1,5 @@
 #include <Arduino.h>
+//this was for testing only if github owrks only on i
 #include <PushButton.h>
 #include <TaskScheduler.h>
 #include "BluetoothSerial.h"
@@ -13,7 +14,7 @@ bool online = false;
 int a, b, m, n, x, y;
 char e, f, g;
 
-float Kp = 50; 
+float Kp = 49; 
 float Ki = 0.00;
 float Kd = 0;
 
